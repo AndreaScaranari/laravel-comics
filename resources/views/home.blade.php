@@ -14,10 +14,15 @@
 
 <body>
     <header>
-        <h1>placeholder</h1>
+        <h1>DC Comics</h1>
     </header>
     <main>
-        <p>placeholder</p>
+        <p>Lista fumetti in archivio</p>
+        <ul>
+            @foreach ($comics as $comic)
+                <li>{{ $comic['series'] }}</li>
+            @endforeach
+        </ul>
     </main>
 
 </body>
