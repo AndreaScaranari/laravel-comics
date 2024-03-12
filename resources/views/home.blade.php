@@ -17,12 +17,14 @@
     @include('includes.header')
 
     <main>
-        <p>Lista fumetti in archivio</p>
-        <ul>
-            @foreach ($comics as $comic)
-                <li>{{ $comic['series'] }}</li>
-            @endforeach
-        </ul>
+        <div class="container">
+            <h2 class="text-center py-3">Lista fumetti in archivio</h2>
+            <ul class="d-flex flex-wrap">
+                @foreach ($comics as $comic)
+                    <li class="list-unstyled col-3 py-2">{{ $comic['series'] }}</li>
+                @endforeach
+            </ul>
+        </div>
     </main>
 
 </body>
