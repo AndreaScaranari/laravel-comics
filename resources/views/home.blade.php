@@ -13,9 +13,9 @@
 </head>
 
 <body>
-    <header>
-        <h1>DC Comics</h1>
-    </header>
+
+    @include('includes.header')
+
     <main>
         <p>Lista fumetti in archivio</p>
         <ul>
