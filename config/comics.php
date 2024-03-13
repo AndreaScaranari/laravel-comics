@@ -6,6 +6,9 @@ return [
     'price' => '$19.99',
     'series' => 'Action Comics',
     'type' => 'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus nesciunt
+    iusto magni rerum modi enim porro atque maiores rem minus vero architecto eligendi, laudantium dolores odio,
+    accusantium error quod!'
   ],
   [
     'thumb' =>
@@ -13,6 +16,7 @@ return [
     'price' => '$3.99',
     'series' => 'American Vampire 1976',
     'type' => 'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iure quam autem enim itaque dolor veritatis dignissimos reprehenderit cupiditate magnam, nisi tempora voluptas. Aliquam deserunt neque nobis, maxime aperiam suscipit.'
   ],
   [
     'thumb' =>
@@ -20,6 +24,7 @@ return [
     'price' => '$16.99',
     'series' => 'Aquaman',
     'type' => 'graphic novel',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque vero eligendi architecto ea quae nemo cupiditate a velit placeat, aperiam iure eos suscipit aliquam tempore id quos laboriosam obcaecati?'
   ],
   [
     'thumb' =>
@@ -27,6 +32,9 @@ return [
     'price' => '$2.99',
     'series' => 'Batgirl',
     'type' => 'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus nesciunt
+    iusto magni rerum modi enim porro atque maiores rem minus vero architecto eligendi, laudantium dolores odio,
+    accusantium error quod!'
   ],
   [
     'thumb' =>
@@ -34,6 +42,7 @@ return [
     'price' => '$3.99',
     'series' => 'Batman',
     'type' => 'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iure quam autem enim itaque dolor veritatis dignissimos reprehenderit cupiditate magnam, nisi tempora voluptas. Aliquam deserunt neque nobis, maxime aperiam suscipit.'
   ],
   [
     'thumb' =>
@@ -41,6 +50,7 @@ return [
     'price' => '$2.99',
     'series' => 'Batman Beyond',
     'type' => 'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque vero eligendi architecto ea quae nemo cupiditate a velit placeat, aperiam iure eos suscipit aliquam tempore id quos laboriosam obcaecati?'
   ],
   [
     'thumb' =>
@@ -48,6 +58,9 @@ return [
     'price' => '$3.99',
     'series' => 'Batman/Superman',
     'type' => 'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus nesciunt
+    iusto magni rerum modi enim porro atque maiores rem minus vero architecto eligendi, laudantium dolores odio,
+    accusantium error quod!'
   ],
   [
     'thumb' =>
@@ -55,6 +68,7 @@ return [
     'price' => '$4.99',
     'series' => 'Batman/Superman Annual',
     'type' =>'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iure quam autem enim itaque dolor veritatis dignissimos reprehenderit cupiditate magnam, nisi tempora voluptas. Aliquam deserunt neque nobis, maxime aperiam suscipit.'
   ],
   [
     'thumb' =>
@@ -62,6 +76,7 @@ return [
     'price' => '$5.99',
     'series' => 'Batman: The Joker War Zone',
     'type' => 'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque vero eligendi architecto ea quae nemo cupiditate a velit placeat, aperiam iure eos suscipit aliquam tempore id quos laboriosam obcaecati?'
   ],
   [
     'thumb' =>
@@ -69,6 +84,9 @@ return [
     'price' =>'$6.99',
     'series' => 'Batman: Three Jokers',
     'type' => 'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus nesciunt
+    iusto magni rerum modi enim porro atque maiores rem minus vero architecto eligendi, laudantium dolores odio,
+    accusantium error quod!'
   ],
   [
     'thumb' =>
@@ -76,6 +94,7 @@ return [
     'price' => '$4.99',
     'series' => 'Batman: White Knight Presents: Harley Quinn',
     'type' => 'comic book',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iure quam autem enim itaque dolor veritatis dignissimos reprehenderit cupiditate magnam, nisi tempora voluptas. Aliquam deserunt neque nobis, maxime aperiam suscipit.'
   ],
   [
     'thumb' =>
@@ -83,5 +102,6 @@ return [
     'price' => '$16.99',
     'series' => 'Catwoman',
     'type' => 'graphic novel',
+    'text' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque vero eligendi architecto ea quae nemo cupiditate a velit placeat, aperiam iure eos suscipit aliquam tempore id quos laboriosam obcaecati?'
   ],
 ];

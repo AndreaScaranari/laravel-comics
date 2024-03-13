@@ -1,28 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+@section('title', 'Comic')
 
-    @vite('resources/js/app.js')
-</head>
-
-<body>
-
-    @include('includes.header')
-
+@section('main-content')
     <main>
         <div class="container">
-            <h1 class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas nostrum quis unde
-                autem quibusdam ab ea
-                et maiores explicabo alias ipsum, laudantium quidem corrupti, ullam pariatur culpa voluptate?
-                Reprehenderit,
-                nisi?</h1>
+            <h1 class="text-center">{{ $comic['series'] }}</h1>
+            <h3 class="text-center">{{ $comic['type'] }}</h3>
+            <div class="d-flex w-50 py-4 mx-auto">
+                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}" class="img-fluid col-6">
+                <div class="col-6">
+                    {{ $comic['text'] }}
+                </div>
+            </div>
         </div>
     </main>
-</body>
-
-</html>
+@endsection
