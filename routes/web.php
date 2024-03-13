@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('home');
 
-Route::get('/comic', function (){
+Route::get('/comics/{index}', function ($index){
 $comics = config('comics');
 
-    return view('comic', ['comic' => $comics[0]]);
+    return view('comic', ['comic' => $comics[$index]]);
 })->name('comic');

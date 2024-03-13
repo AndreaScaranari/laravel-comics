@@ -1,4 +1,4 @@
-<a href="{{ route('comic') }}">
+<a href="{{ url("/comics/$index") }}">
     <div class="card">
         <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }} cover">
         <div class="card-body">

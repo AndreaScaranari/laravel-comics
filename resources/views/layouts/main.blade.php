@@ -10,6 +10,8 @@
     <!-- Vite -->
     @vite('resources/js/app.js')
 
+    @yield('cdnjs')
+
 </head>
 
 <body>
