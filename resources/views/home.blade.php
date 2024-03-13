@@ -7,7 +7,7 @@
 
     <title>Laravel</title>
 
-    <!-- Styles -->
+    <!-- Vite -->
     @vite('resources/js/app.js')
 
 </head>
@@ -22,12 +22,9 @@
             <ul class="row">
                 @foreach ($comics as $comic)
                     <li class="list-unstyled col-3 p-2 text-center">
-                        <div class="card">
-                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }} cover">
-                            <div class="card-body">
-                                <p>{{ $comic['series'] }}</p>
-                            </div>
-                        </div>
+
+                        @include('includes.card')
+
                     </li>
                 @endforeach
             </ul>
