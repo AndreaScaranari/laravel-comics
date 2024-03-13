@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel</title>
-
-    <!-- Vite -->
-    @vite('resources/js/app.js')
-
-</head>
-
-<body>
-
-    @include('includes.header')
-
+@section('main-content')
     <main>
         <div class="container">
             <h2 class="text-center py-3 m-0">Lista fumetti in archivio</h2>
@@ -30,7 +15,4 @@
             </ul>
         </div>
     </main>
-
-</body>
-
-</html>
+@endsection
