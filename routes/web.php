@@ -26,6 +26,9 @@ Route::get('/comics/{index}', function ($index){
     }
 
     $comic = $comics[$index];
+    $last_index = count($comics) - 1;
+    $prev = $index > 0 ? $index -1: $last_index;
+    $next = $index == $last_index ? 0: $index + 1;
 
-    return view('comic', compact('comic'));
+    return view('comic', compact('comic', 'prev', 'next'));
 })->name('comic');

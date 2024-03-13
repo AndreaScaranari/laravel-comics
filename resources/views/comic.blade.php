@@ -15,14 +15,18 @@
         <div class="container w-50">
             <div class="d-flex justify-content-between align-items-center">
                 <nav id="prev">
-                    <i class="fas fa-4x fa-chevron-left"></i>
+                    <a href="{{ route('comic', $prev) }}">
+                        <i class="fas fa-4x fa-chevron-left"></i>
+                    </a>
                 </nav>
                 <div class="title">
                     <h1 class="text-center">{{ $comic['series'] }}</h1>
                     <h3 class="text-center">{{ $comic['type'] }}</h3>
                 </div>
-                <nav id="prev">
-                    <i class="fas fa-4x fa-chevron-right"></i>
+                <nav>
+                    <a href="{{ route('comic', $next) }}">
+                        <i class="fas fa-4x fa-chevron-right"></i>
+                    </a>
                 </nav>
             </div>
             <div class="d-flex py-4 mx-auto justify-content-evenly ">
